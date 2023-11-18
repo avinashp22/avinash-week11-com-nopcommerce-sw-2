@@ -13,7 +13,7 @@ public class RegisterTest extends BaseTest {
     public void setUP(){openBrowser(baseURL);}
 
     @Test
-    public void nameHere1(){
+    public void userShouldNavigateToRegisterPageSuccessfully(){
 
 
     }
@@ -21,7 +21,7 @@ public class RegisterTest extends BaseTest {
 
 
     @Test
-    public void nameHere2(){
+    public void userShouldRegisterAccountSuccessfully(){
 
 
 

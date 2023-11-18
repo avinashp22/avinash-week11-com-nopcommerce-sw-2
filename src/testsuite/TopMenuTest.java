@@ -13,7 +13,7 @@ public class TopMenuTest extends BaseTest {
     public void setUP(){openBrowser(baseURL);}
 
     @Test
-    public void nameHere1(){
+    public void userShouldNavigateToComputerPageSuccessfully(){
 
 
     }
@@ -21,7 +21,42 @@ public class TopMenuTest extends BaseTest {
 
 
     @Test
-    public void nameHere2(){
+    public void userShouldNavigateToElectronicsPageSuccessfully(){
+
+
+
+    }
+
+    @Test
+    public void userShouldNavigateToApparelPageSuccessfully(){
+
+
+
+    }
+
+    @Test
+    public void userShouldNavigateToDigitalDownloadsPageSuccessfully(){
+
+
+
+    }
+
+    @Test
+    public void userShouldNavigateToBooksPageSuccessfully(){
+
+
+
+    }
+
+    @Test
+    public void userShouldNavigateToJewelryPageSuccessfully(){
+
+
+
+    }
+
+    @Test
+    public void userShouldNavigateToGiftCardsPageSuccessfully(){
 
 
 

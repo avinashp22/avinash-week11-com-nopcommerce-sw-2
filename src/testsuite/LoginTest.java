@@ -10,10 +10,10 @@ public class LoginTest extends BaseTest {
     String baseURL = "https://demo.nopcommerce.com/"; // set base url
 
     @Before
-    public void setUP(){openBrowser(baseURL);}
+    public void setUp(){openBrowser(baseURL);}
 
     @Test
-    public void nameHere1(){
+    public void userShouldNavigateToLoginPageSuccessfully(){
 
 
     }
@@ -21,7 +21,14 @@ public class LoginTest extends BaseTest {
 
 
     @Test
-    public void nameHere2(){
+    public void userShouldLoginSuccessfullyWithValidCredentials(){
+
+
+
+    }
+
+    @Test
+    public void verifyTheErrorMessage(){
 
 
 
