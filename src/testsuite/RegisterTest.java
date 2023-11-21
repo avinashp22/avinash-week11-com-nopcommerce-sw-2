@@ -1,3 +1,20 @@
+/**
+ * 5. Write down the following test into ‘RegisterTest’ class
+ * 1. userShouldNavigateToRegisterPageSuccessfully
+ * * click on the ‘Register’ link
+ * * Verify the text ‘Register’
+ * 2. userShouldRegisterAccountSuccessfully * click on the ‘Register’ link
+ * * Select gender radio button
+ * * Enter First name
+ * * Enter Last name
+ * * Select Day Month and Year
+ * * Enter Email address
+ * * Enter Password
+ * * Enter Confirm password
+ * * Click on REGISTER button
+ * * Verify the text 'Your registration completed’
+ */
+
 package testsuite;
 
 import browserfactory.BaseTest;
@@ -33,7 +50,7 @@ public class RegisterTest extends BaseTest {
         driver.findElement(By.xpath("//select[@name = 'DateOfBirthDay']//option[text() = '30']")).click();
         driver.findElement(By.xpath("//select[@name = 'DateOfBirthMonth']//option[text() = 'January']")).click();
         driver.findElement(By.xpath("//select[@name = 'DateOfBirthYear']//option[text() = '1913']")).click();
-        driver.findElement(By.xpath("//input[@id = 'Email']")).sendKeys("IindianaJjoness@gmail.com");
+        driver.findElement(By.xpath("//input[@id = 'Email']")).sendKeys("IindianajJjonesss@gmail.com");
         driver.findElement(By.xpath("//input[@id = 'Company']")).sendKeys("Prime");
         driver.findElement(By.xpath("//input[@id = 'Newsletter']")).click();
         driver.findElement(By.xpath("//input[@id = 'Password']")).sendKeys("Prime123!");
